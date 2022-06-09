@@ -15,9 +15,8 @@ AutoIPTables requires [Python](https://www.python.org/downloads/) to run.
 
 To install in Windows :
 
-```sh
-Follow the instructions of the Python installer and don't forget to check the "add to path".
-```
+> Follow the instructions of the Python installer and don't forget to check the "add to path".
+
 
 To install Python in Linux :
 
