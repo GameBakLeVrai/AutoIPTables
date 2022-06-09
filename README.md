@@ -4,7 +4,7 @@ AutoIPTables is a tool for easy installation and management of IPTables.
 
 ## Features
 
-- Add your rules from text file
+- Add your rules from text file in the config folder
 - You can add your own comment with # in the text config file
 - Remove All Tables
 
