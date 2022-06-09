@@ -30,6 +30,12 @@ Install the modules :
 pip install colorama
 ```
 
+Clone the project and enjoy.
+
+```sh
+git clone https://github.com/GameBakLeVrai/AutoIPTables.git
+```
+
 ## License
 
 MIT
