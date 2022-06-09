@@ -1,0 +1,11 @@
+sudo iptables -t nat -F
+sudo iptables -t mangle -F
+sudo iptables -t filter -F
+sudo iptables -t raw -F
+
+sudo iptables -t nat -X
+sudo iptables -t mangle -X
+sudo iptables -t filter -X
+sudo iptables -t raw -X
+
+echo "=== NAT ==="; sudo iptables -t nat -S; echo "\n=== MANGLE ==="; sudo iptables -t mangle -S; echo "\n=== FILTER ==="; sudo iptables -t filter -S; echo "\n=== RAW ==="; sudo iptables -t raw -S
