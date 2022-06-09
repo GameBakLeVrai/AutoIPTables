@@ -58,7 +58,7 @@ def readExec(file):
 
 def Main(ModuleChoice):
     while(True):
-        QuestionMenu = input(Fore.RED + "Séléctionner votre Module : " + Fore.RESET)
+        QuestionMenu = input(Fore.RED + "Select your Module : " + Fore.RESET)
         print("")
 
         if(QuestionMenu.isnumeric()):
@@ -66,10 +66,10 @@ def Main(ModuleChoice):
                 ModuleChoice += int(QuestionMenu) + 1
                 break
             else:
-                print(Fore.LIGHTRED_EX + "[!] Vous devez entrer un nombre correspondant à un module." + Fore.RESET)
+                print(Fore.LIGHTRED_EX + "[!] You must enter a number corresponding to a module." + Fore.RESET)
                 Reset()
         else:
-            print(Fore.LIGHTRED_EX + "[!] Vous devez entrer un nombre correspondant à un module." + Fore.RESET)
+            print(Fore.LIGHTRED_EX + "[!] You must enter a number corresponding to a module." + Fore.RESET)
             Reset()
 
     if(ModuleChoice != 1):
