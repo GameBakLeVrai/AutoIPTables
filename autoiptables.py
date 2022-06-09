@@ -53,7 +53,7 @@ def readExec(file):
     rules = open('./config/' + file + '.txt', 'r+')
 
     for l in rules.readlines():
-        if (str(l).strip() != ""):
+        if (str(l).strip() != "") and ('#' not in str(l)):
             os.system(l.split('\n')[0])
 
 def Main(ModuleChoice):
